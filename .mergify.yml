@@ -1,0 +1,6 @@
+queue_rules:
+  - name: Exercism Solutions Syncer
+    autoqueue: true
+    queue_conditions:
+      - and:
+          - author = exercism-solutions-syncer[bot]
